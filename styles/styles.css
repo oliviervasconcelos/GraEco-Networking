@@ -188,6 +188,10 @@
 }
 
 @media (min-height: 850px){
+    .container{
+        margin-top: 17vh
+    }
+
     .titulo__empresas{
         margin: 3% 0 4% 0;
     }
