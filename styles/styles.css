@@ -196,4 +196,8 @@
         gap: 40px;
         padding: 40px;
     }
+
+    .about{
+        margin-top: 10vh;
+    }
 }
