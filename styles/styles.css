@@ -122,7 +122,6 @@
     text-align: center;
     color: var(--cor--principal);
     font-weight: 700;
-    /* margin-top: 3vh; */
 }
 
 .cadastrese{
@@ -176,4 +175,25 @@
     text-align: center;
     color: var(--cor--principal);
     text-transform: uppercase;
+}
+
+@media (min-width: 1815px) {
+    .container{
+        margin-top: 15vh
+    }
+
+    .imagem__grafica, .imagem__reciclagem{
+        height: 250px;
+    }
+}
+
+@media (min-height: 850px){
+    .titulo__empresas{
+        margin: 3% 0 4% 0;
+    }
+    
+    .box{
+        gap: 40px;
+        padding: 40px;
+    }
 }
