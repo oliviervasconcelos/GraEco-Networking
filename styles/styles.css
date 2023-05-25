@@ -33,6 +33,9 @@
 }
 
 .informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--branco);
     box-shadow: var(--sombra--box);
     border-radius: 32px;
@@ -49,6 +52,10 @@
 .saibamais{
     text-decoration: none;
     color: var(--cor--principal);
+}
+
+.informacoes__secundaria{
+    margin-bottom: 32px;
 }
 
 .informacoes__texto{
